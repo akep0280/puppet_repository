@@ -14,17 +14,14 @@ mod "puppetlabs/apt"
 mod "puppetlabs/concat"
 
 mod "users",
-	:git => "git://github.com/cvquesty/users.git",
+	:git => "git://github.com/akep0280/users.git",
 	:ref => 'development'
 
-mod "fcron",
-	:git => "git://github.com/cvquesty/fcron.git",
-	:ref => 'development'
 
 mod "roles",
-	:git => "git://github.com/cvquesty/roles.git",
+	:git => "git://github.com/akep0280/roles.git",
 	:ref => 'development'
 
 mod "profiles",
-	:git => "git://github.com/cvquesty/profiles.git",
+	:git => "git://github.com/akep0280/profiles.git",
 	:ref => 'development'
