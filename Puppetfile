@@ -25,3 +25,7 @@ mod "roles",
 mod "profiles",
 	:git => "git://github.com/akep0280/profiles.git",
 	:ref => 'development'
+
+mod "ntp",
+	:git => "git://github.com/akep0280/ntp.git",
+	:ref => 'development'
