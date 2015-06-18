@@ -34,3 +34,7 @@ mod "ntp",
 mod "screen",
 	:git => "git://github.com/akep0280/screen.git",
 	:ref => 'development'
+
+mod "vhost",
+	:git => "git://github.com/akep0280/vhost.git",
+	:red => 'development'
