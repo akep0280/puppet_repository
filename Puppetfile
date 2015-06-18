@@ -29,3 +29,7 @@ mod "profiles",
 mod "ntp",
 	:git => "git://github.com/akep0280/ntp.git",
 	:ref => 'development'
+
+mod "screen",
+	:git => "git://github.com/akep0280/screen.git",
+	:ref => 'development'
