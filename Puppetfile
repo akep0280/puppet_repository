@@ -37,4 +37,4 @@ mod "screen",
 
 mod "vhost",
 	:git => "git://github.com/akep0280/vhost.git",
-	:red => 'development'
+	:ref => 'development'
