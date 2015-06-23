@@ -38,3 +38,7 @@ mod "screen",
 mod "vhost",
 	:git => "git://github.com/akep0280/vhost.git",
 	:ref => 'development'
+
+mod "php",
+ 	:git => "git://github.com/akep0280/php.git",
+	:ref => 'development'
