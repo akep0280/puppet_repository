@@ -42,3 +42,7 @@ mod "vhost",
 mod "php",
  	:git => "git://github.com/akep0280/php.git",
 	:ref => 'development'
+
+mod "httpconf",
+	:git => "git://github.com/akep0280/httpconf.git",
+	:ref => 'development'
