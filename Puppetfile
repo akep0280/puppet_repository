@@ -35,9 +35,9 @@ mod "screen",
 	:git => "git://github.com/akep0280/screen.git",
 	:ref => 'development'
 
-mod "vhost",
-	:git => "git://github.com/akep0280/vhost.git",
-	:ref => 'development'
+#mod "vhost",
+	#:git => "git://github.com/akep0280/vhost.git",
+	#:ref => 'development'
 
 mod "php",
  	:git => "git://github.com/akep0280/php.git",
@@ -45,4 +45,8 @@ mod "php",
 
 mod "httpconf",
 	:git => "git://github.com/akep0280/httpconf.git",
+	:ref => 'development'
+
+mod "resolver",
+	:git => "git://github.com/akep0280/resolver.git",
 	:ref => 'development'
