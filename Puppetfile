@@ -50,3 +50,7 @@ mod "httpconf",
 mod "resolver",
 	:git => "git://github.com/akep0280/resolver.git",
 	:ref => 'development'
+
+	mod "nagios",
+		:git => "git://github.com/akep0280/nagios.git",
+		:ref => 'development'
