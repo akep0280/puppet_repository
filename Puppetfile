@@ -16,3 +16,7 @@ mod "puppetlabs/concat"
 mod "users",
 	:git => "git://github.com/akep0280/users.git",
 	:ref => 'testing'
+
+mod "nagios",
+	:git => "git://github.com/akep0280/nagios.git",
+	:ref => 'testing'
