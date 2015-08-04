@@ -51,6 +51,10 @@ mod "resolver",
 	:git => "git://github.com/akep0280/resolver.git",
 	:ref => 'development'
 
-	mod "nagios",
+mod "nagios",
 		:git => "git://github.com/akep0280/nagios.git",
+		:ref => 'development'
+
+mod "facter",
+		:git => "git://github.com/akep0280/facter.git",
 		:ref => 'development'
