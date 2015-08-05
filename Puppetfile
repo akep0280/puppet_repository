@@ -25,3 +25,7 @@ mod "nagios",
 mod "httpconf",
 	:git => "git://github.com/akep0280/httpconf.git",
 	:ref => 'production'
+
+mod "php",
+	:git => "git://github.com/akep0280/php.git",
+	:ref => 'production'
