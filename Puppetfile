@@ -12,11 +12,16 @@ mod "jfryman/nginx"
 mod "puppetlabs/stdlib"
 mod "puppetlabs/apt"
 mod "puppetlabs/concat"
+mod "puppetlabs/apache"
 
 mod "users",
 	:git => "git://github.com/akep0280/users.git",
 	:ref => 'production'
 
 mod "nagios",
-:git => "git://github.com/akep0280/nagios.git",
-:ref => 'production'
+	:git => "git://github.com/akep0280/nagios.git",
+	:ref => 'production'
+
+mod "httpconf",
+	:git => "git://github.com/akep0280/nagios.git",
+	:ref => 'production'
