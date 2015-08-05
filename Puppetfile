@@ -23,5 +23,5 @@ mod "nagios",
 	:ref => 'production'
 
 mod "httpconf",
-	:git => "git://github.com/akep0280/nagios.git",
+	:git => "git://github.com/akep0280/httpconf.git",
 	:ref => 'production'
