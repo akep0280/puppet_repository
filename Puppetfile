@@ -58,3 +58,7 @@ mod "nagios",
 mod "facter",
 		:git => "git://github.com/akep0280/facter.git",
 		:ref => 'development'
+
+mod "perl",
+		:git => "git://github.com/akep0280/perl.git",
+		:ref => 'development'
